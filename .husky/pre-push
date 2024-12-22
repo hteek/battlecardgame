@@ -1,0 +1,1 @@
+git diff HEAD --quiet && pnpm exec nx affected --target=test --base=origin/main --parallel=2
