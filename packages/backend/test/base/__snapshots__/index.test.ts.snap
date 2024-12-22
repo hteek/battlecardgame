@@ -1,0 +1,985 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Base nested stack > Test default stack 1`] = `
+{
+  "Mappings": {
+    "CloudwatchlambdainsightsversionMap": {
+      "af-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:af-south-1:012438385374:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-east-1:519774774795:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-northeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:31",
+      },
+      "ap-northeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:19",
+      },
+      "ap-northeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-3:194566237122:layer:LambdaInsightsExtension-Arm64:17",
+      },
+      "ap-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-1:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "ap-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-2:891564319516:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "ap-southeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-3:439286490199:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ca-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ca-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-north-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-north-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-1:339249233099:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-2:352183217350:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "eu-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-3:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "me-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:me-south-1:285320876703:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "sa-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:sa-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "us-east-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-2:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "us-gov-east-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-east-1:122132214140:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-gov-west-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-west-1:751350123760:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+    },
+    "LatestNodeRuntimeMap": {
+      "af-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-east-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-4": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-5": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-7": {
+        "value": "nodejs20.x",
+      },
+      "ca-central-1": {
+        "value": "nodejs20.x",
+      },
+      "ca-west-1": {
+        "value": "nodejs20.x",
+      },
+      "cn-north-1": {
+        "value": "nodejs18.x",
+      },
+      "cn-northwest-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-central-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-central-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-isoe-west-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-north-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-3": {
+        "value": "nodejs20.x",
+      },
+      "il-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-south-1": {
+        "value": "nodejs20.x",
+      },
+      "mx-central-1": {
+        "value": "nodejs20.x",
+      },
+      "sa-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-2": {
+        "value": "nodejs20.x",
+      },
+      "us-gov-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-gov-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-isob-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-west-1": {
+        "value": "nodejs20.x",
+      },
+      "us-west-2": {
+        "value": "nodejs20.x",
+      },
+    },
+  },
+  "Resources": {
+    "BasePipe": {
+      "Properties": {
+        "Enrichment": {
+          "Fn::GetAtt": [
+            "EnrichmentFunction65873741",
+            "Arn",
+          ],
+        },
+        "Name": "test-project",
+        "RoleArn": {
+          "Fn::GetAtt": [
+            "BasePipeRoleA157FFA5",
+            "Arn",
+          ],
+        },
+        "Source": {
+          "Fn::GetAtt": [
+            "TableCD117FA1",
+            "StreamArn",
+          ],
+        },
+        "SourceParameters": {
+          "DynamoDBStreamParameters": {
+            "BatchSize": 10,
+            "MaximumBatchingWindowInSeconds": 3,
+            "StartingPosition": "TRIM_HORIZON",
+          },
+        },
+        "Target": {
+          "Fn::GetAtt": [
+            "EventBus7B8748AA",
+            "Arn",
+          ],
+        },
+        "TargetParameters": {
+          "EventBridgeEventBusParameters": {
+            "DetailType": "dynamodb-stream-pipe",
+            "Resources": [
+              {
+                "Fn::GetAtt": [
+                  "TableCD117FA1",
+                  "Arn",
+                ],
+              },
+            ],
+            "Source": "aws-dynamodb-stream-eventbridge-fanout",
+          },
+        },
+      },
+      "Type": "AWS::Pipes::Pipe",
+    },
+    "BasePipeRoleA157FFA5": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Condition": {
+                "StringEquals": {
+                  "aws:SourceAccount": {
+                    "Ref": "AWS::AccountId",
+                  },
+                  "aws:SourceArn": {
+                    "Fn::Join": [
+                      "",
+                      [
+                        "arn:aws:pipes:",
+                        {
+                          "Ref": "AWS::Region",
+                        },
+                        ":",
+                        {
+                          "Ref": "AWS::AccountId",
+                        },
+                        ":pipe/test-project",
+                      ],
+                    ],
+                  },
+                },
+              },
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "pipes.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "BasePipeRoleDefaultPolicy518BCE94": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "dynamodb:DescribeStream",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:ListStreams",
+              ],
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "TableCD117FA1",
+                  "StreamArn",
+                ],
+              },
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "EnrichmentFunction65873741",
+                  "Arn",
+                ],
+              },
+            },
+            {
+              "Action": "events:PutEvents",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "EventBus7B8748AA",
+                  "Arn",
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "BasePipeRoleDefaultPolicy518BCE94",
+        "Roles": [
+          {
+            "Ref": "BasePipeRoleA157FFA5",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "CertificateCertificateRequestorFunction5E845413": {
+      "DependsOn": [
+        "CertificateCertificateRequestorFunctionServiceRoleDefaultPolicy3C8845BC",
+        "CertificateCertificateRequestorFunctionServiceRoleC04C13DA",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Handler": "index.certificateRequestHandler",
+        "Role": {
+          "Fn::GetAtt": [
+            "CertificateCertificateRequestorFunctionServiceRoleC04C13DA",
+            "Arn",
+          ],
+        },
+        "Runtime": {
+          "Fn::FindInMap": [
+            "LatestNodeRuntimeMap",
+            {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "CertificateCertificateRequestorFunctionServiceRoleC04C13DA": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "CertificateCertificateRequestorFunctionServiceRoleDefaultPolicy3C8845BC": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "acm:RequestCertificate",
+                "acm:DescribeCertificate",
+                "acm:DeleteCertificate",
+                "acm:AddTagsToCertificate",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": "route53:GetChange",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": "route53:changeResourceRecordSets",
+              "Condition": {
+                "ForAllValues:StringEquals": {
+                  "route53:ChangeResourceRecordSetsActions": [
+                    "UPSERT",
+                  ],
+                  "route53:ChangeResourceRecordSetsRecordTypes": [
+                    "CNAME",
+                  ],
+                },
+                "ForAllValues:StringLike": {
+                  "route53:ChangeResourceRecordSetsNormalizedRecordNames": [
+                    "*.my.custom.domain",
+                    "*.my.custom.domain",
+                  ],
+                },
+              },
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":route53:::hostedzone/XXXXXXXXXXXXX",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "CertificateCertificateRequestorFunctionServiceRoleDefaultPolicy3C8845BC",
+        "Roles": [
+          {
+            "Ref": "CertificateCertificateRequestorFunctionServiceRoleC04C13DA",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "CertificateCertificateRequestorResource2890C6B7": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "DomainName": "my.custom.domain",
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Region": "us-east-1",
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CertificateCertificateRequestorFunction5E845413",
+            "Arn",
+          ],
+        },
+        "SubjectAlternativeNames": [
+          "*.my.custom.domain",
+        ],
+      },
+      "Type": "AWS::CloudFormation::CustomResource",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "DmarcRecord17E400DB": {
+      "Properties": {
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Name": "_dmarc.my.custom.domain.",
+        "ResourceRecords": [
+          ""v=DMARC1;p=quarantine;rua=mailto:dmarc_report@my.custom.domain"",
+        ],
+        "TTL": "1800",
+        "Type": "TXT",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "EmailIdentity7187767D": {
+      "Properties": {
+        "EmailIdentity": "my.custom.domain",
+      },
+      "Type": "AWS::SES::EmailIdentity",
+    },
+    "EmailIdentityDkimDnsToken1BA32ACB3": {
+      "Properties": {
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Name": {
+          "Fn::GetAtt": [
+            "EmailIdentity7187767D",
+            "DkimDNSTokenName1",
+          ],
+        },
+        "ResourceRecords": [
+          {
+            "Fn::GetAtt": [
+              "EmailIdentity7187767D",
+              "DkimDNSTokenValue1",
+            ],
+          },
+        ],
+        "TTL": "1800",
+        "Type": "CNAME",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "EmailIdentityDkimDnsToken2BBEBB8EC": {
+      "Properties": {
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Name": {
+          "Fn::GetAtt": [
+            "EmailIdentity7187767D",
+            "DkimDNSTokenName2",
+          ],
+        },
+        "ResourceRecords": [
+          {
+            "Fn::GetAtt": [
+              "EmailIdentity7187767D",
+              "DkimDNSTokenValue2",
+            ],
+          },
+        ],
+        "TTL": "1800",
+        "Type": "CNAME",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "EmailIdentityDkimDnsToken3BB5E8A49": {
+      "Properties": {
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Name": {
+          "Fn::GetAtt": [
+            "EmailIdentity7187767D",
+            "DkimDNSTokenName3",
+          ],
+        },
+        "ResourceRecords": [
+          {
+            "Fn::GetAtt": [
+              "EmailIdentity7187767D",
+              "DkimDNSTokenValue3",
+            ],
+          },
+        ],
+        "TTL": "1800",
+        "Type": "CNAME",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "EnrichmentFunction65873741": {
+      "DependsOn": [
+        "EnrichmentFunctionServiceRoleDefaultPolicy01ADD76E",
+        "EnrichmentFunctionServiceRole7C57E520",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Base",
+            "POWERTOOLS_SERVICE_NAME": "Enrichment",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "EnrichmentFunctionServiceRole7C57E520",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "EnrichmentFunctionLogRetentionAB197AB7": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "EnrichmentFunction65873741",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "EnrichmentFunctionServiceRole7C57E520": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "EnrichmentFunctionServiceRoleDefaultPolicy01ADD76E": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "EnrichmentFunctionServiceRoleDefaultPolicy01ADD76E",
+        "Roles": [
+          {
+            "Ref": "EnrichmentFunctionServiceRole7C57E520",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "EventBus7B8748AA": {
+      "Properties": {
+        "Name": "test-project",
+      },
+      "Type": "AWS::Events::EventBus",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A": {
+      "DependsOn": [
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Handler": "index.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+            "Arn",
+          ],
+        },
+        "Runtime": {
+          "Fn::FindInMap": [
+            "LatestNodeRuntimeMap",
+            {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "logs:PutRetentionPolicy",
+                "logs:DeleteRetentionPolicy",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "Roles": [
+          {
+            "Ref": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "MxRecord3409E8C8": {
+      "Properties": {
+        "HostedZoneId": "XXXXXXXXXXXXX",
+        "Name": "my.custom.domain.",
+        "ResourceRecords": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "10 inbound-smtp.",
+                {
+                  "Ref": "AWS::Region",
+                },
+                ".amazonaws.com",
+              ],
+            ],
+          },
+        ],
+        "TTL": "1800",
+        "Type": "MX",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "ReceiptRuleSetD3CCC994": {
+      "DependsOn": [
+        "EmailIdentityDkimDnsToken1BA32ACB3",
+        "EmailIdentityDkimDnsToken2BBEBB8EC",
+        "EmailIdentityDkimDnsToken3BB5E8A49",
+        "EmailIdentity7187767D",
+      ],
+      "Type": "AWS::SES::ReceiptRuleSet",
+    },
+    "ReceiptRuleSetRule01CA7709C": {
+      "DependsOn": [
+        "EmailIdentityDkimDnsToken1BA32ACB3",
+        "EmailIdentityDkimDnsToken2BBEBB8EC",
+        "EmailIdentityDkimDnsToken3BB5E8A49",
+        "EmailIdentity7187767D",
+      ],
+      "Properties": {
+        "Rule": {
+          "Actions": [
+            {
+              "BounceAction": {
+                "Message": "Mailbox does not exist",
+                "Sender": "no-reply@my.custom.domain",
+                "SmtpReplyCode": "550",
+                "StatusCode": "[VERSION REMOVED]",
+              },
+            },
+          ],
+          "Enabled": true,
+          "Recipients": [
+            "no-reply@my.custom.domain",
+          ],
+        },
+        "RuleSetName": {
+          "Ref": "ReceiptRuleSetD3CCC994",
+        },
+      },
+      "Type": "AWS::SES::ReceiptRule",
+    },
+    "TableCD117FA1": {
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "pk",
+            "AttributeType": "S",
+          },
+          {
+            "AttributeName": "sk",
+            "AttributeType": "S",
+          },
+          {
+            "AttributeName": "gs1pk",
+            "AttributeType": "S",
+          },
+          {
+            "AttributeName": "gs1sk",
+            "AttributeType": "S",
+          },
+          {
+            "AttributeName": "gs2pk",
+            "AttributeType": "S",
+          },
+          {
+            "AttributeName": "gs2sk",
+            "AttributeType": "S",
+          },
+        ],
+        "BillingMode": "PAY_PER_REQUEST",
+        "GlobalSecondaryIndexes": [
+          {
+            "IndexName": "SkPkIndex",
+            "KeySchema": [
+              {
+                "AttributeName": "sk",
+                "KeyType": "HASH",
+              },
+              {
+                "AttributeName": "pk",
+                "KeyType": "RANGE",
+              },
+            ],
+            "Projection": {
+              "ProjectionType": "ALL",
+            },
+          },
+          {
+            "IndexName": "gs1",
+            "KeySchema": [
+              {
+                "AttributeName": "gs1pk",
+                "KeyType": "HASH",
+              },
+              {
+                "AttributeName": "gs1sk",
+                "KeyType": "RANGE",
+              },
+            ],
+            "Projection": {
+              "ProjectionType": "ALL",
+            },
+          },
+          {
+            "IndexName": "gs2",
+            "KeySchema": [
+              {
+                "AttributeName": "gs2pk",
+                "KeyType": "HASH",
+              },
+              {
+                "AttributeName": "gs2sk",
+                "KeyType": "RANGE",
+              },
+            ],
+            "Projection": {
+              "ProjectionType": "ALL",
+            },
+          },
+        ],
+        "KeySchema": [
+          {
+            "AttributeName": "pk",
+            "KeyType": "HASH",
+          },
+          {
+            "AttributeName": "sk",
+            "KeyType": "RANGE",
+          },
+        ],
+        "PointInTimeRecoverySpecification": {
+          "PointInTimeRecoveryEnabled": true,
+        },
+        "StreamSpecification": {
+          "StreamViewType": "NEW_AND_OLD_IMAGES",
+        },
+        "TableName": "test-project",
+      },
+      "Type": "AWS::DynamoDB::Table",
+      "UpdateReplacePolicy": "Retain",
+    },
+  },
+}
+`;

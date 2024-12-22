@@ -1,0 +1,144 @@
+{
+  "name": "@hteek/battlecardgame-backend",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@smithy/service-error-classification": "3.0.11",
+    "@types/aws-lambda": "8.10.146",
+    "@types/lambda-tester": "4.0.3",
+    "graphql": "16.10.0"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "5.2.0",
+    "@aws-lambda-powertools/logger": "2.12.0",
+    "@aws-lambda-powertools/metrics": "2.12.0",
+    "@aws-lambda-powertools/tracer": "2.12.0",
+    "@aws-sdk/client-amplify": "3.721.0",
+    "@aws-sdk/client-dynamodb": "3.721.0",
+    "@aws-sdk/client-eventbridge": "3.721.0",
+    "@aws-sdk/util-dynamodb": "3.721.0",
+    "@aws-sdk/credential-provider-node": "3.721.0",
+    "@graphql-tools/graphql-file-loader": "8.0.9",
+    "@graphql-tools/load": "8.0.10",
+    "@graphql-tools/utils": "10.7.0",
+    "@middy/core": "6.0.0",
+    "@middy/util": "6.0.0",
+    "@smithy/protocol-http": "4.1.8",
+    "@smithy/signature-v4": "4.2.4",
+    "aws-cdk-github-oidc": "2.4.1",
+    "aws-cdk-lib": "2.173.2",
+    "aws-sdk-client-mock": "4.1.0",
+    "aws-sdk-client-mock-vitest": "5.0.0",
+    "awscdk-appsync-utils": "0.0.611",
+    "axios": "1.7.9",
+    "c12": "2.0.1",
+    "constructs": "^10.0.0",
+    "dynamodb-onetable": "2.7.5",
+    "lambda-tester": "4.0.1",
+    "mockdate": "3.0.5",
+    "nock": "13.5.6",
+    "remeda": "2.18.0",
+    "uuid": "11.0.3"
+  },
+  "nx": {
+    "sourceRoot": "packages/backend/src",
+    "projectType": "library",
+    "implicitDependencies": [
+      "frontend"
+    ],
+    "name": "backend",
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "executor": "@nx/js:tsc",
+        "outputs": [
+          "{options.outputPath}"
+        ],
+        "options": {
+          "outputPath": "dist/packages/backend",
+          "main": "packages/backend/lib/index.ts",
+          "tsConfig": "packages/backend/tsconfig.lib.json",
+          "assets": [
+            "packages/backend/*.md"
+          ]
+        }
+      },
+      "bootstrap": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "../../node_modules/.bin/cdk bootstrap",
+          "cwd": "packages/backend"
+        }
+      },
+      "deploy": {
+        "dependsOn": [
+          "build"
+        ],
+        "executor": "nx:run-commands",
+        "options": {
+          "commands": [
+            "../../node_modules/.bin/cdk deploy battle-card-game --require-approval never --outputs-file outputs.json",
+            "./upload-outputs.sh"
+          ],
+          "cwd": "packages/backend",
+          "parallel": false
+        }
+      },
+      "deploy-github-oidc": {
+        "dependsOn": [
+          "build"
+        ],
+        "executor": "nx:run-commands",
+        "options": {
+          "commands": [
+            "../../node_modules/.bin/cdk deploy battle-card-game-github-oidc --require-approval never"
+          ],
+          "cwd": "packages/backend",
+          "parallel": false
+        }
+      },
+      "synth": {
+        "dependsOn": [
+          "build"
+        ],
+        "executor": "nx:run-commands",
+        "options": {
+          "commands": [
+            "../../node_modules/.bin/cdk synth",
+            "jq -r '.Resources.AuthGraphqlApiSchema84F2D5E6.Properties.Definition' ./cdk.out/battlecardgameAuth8AD21B19.nested.template.json > ./cdk.out/schema.auth.graphql",
+            "jq -r '.Resources.GameGraphqlApiSchema21B9254E.Properties.Definition' ./cdk.out/battlecardgameGame13542644.nested.template.json > ./cdk.out/schema.game.graphql",
+            "jq -r '.Resources.NotificationGraphQLApiSchema19D3FC33.Properties.Definition' ./cdk.out/battlecardgameNotificationApi1581AB8C.nested.template.json > ./cdk.out/schema.notification.graphql",
+            "pnpm dlx tsx bin/generate-graphql.ts"
+          ],
+          "cwd": "packages/backend",
+          "parallel": false
+        }
+      },
+      "diff": {
+        "dependsOn": [
+          "build"
+        ],
+        "executor": "nx:run-commands",
+        "options": {
+          "commands": [
+            "../../node_modules/.bin/cdk diff"
+          ],
+          "cwd": "packages/backend",
+          "parallel": false
+        }
+      },
+      "test": {
+        "executor": "@nx/vite:test",
+        "outputs": [
+          "{options.reportsDirectory}"
+        ],
+        "options": {
+          "reportsDirectory": "../../coverage/packages/backend"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "*": [
+    "nx affected:lint --fix --files",
+    "nx format:write --files",
+    "vitest related --run --coverage.enabled=false --passWithNoTests"
+  ]
+}

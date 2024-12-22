@@ -1,0 +1,68 @@
+name: deploy
+
+on:
+  workflow_call:
+    inputs:
+      aws_account:
+        required: true
+        type: string
+      project:
+        required: true
+        type: string
+    secrets:
+      amazon_client_secret:
+        required: true
+      amplify_access_token:
+        required: true
+      facebook_client_secret:
+        required: true
+      google_client_secret:
+        required: true
+      microsoft_oidc_client_secret:
+        required: true
+      nuxt_ui_pro_license:
+        required: true
+
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read # This is required for actions/checkout
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - id: set-git-version
+        name: Set git version
+        run: echo "GIT_VERSION=$(git describe)" >> "$GITHUB_OUTPUT"
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          audience: sts.amazonaws.com
+          aws-region: eu-central-1
+          role-to-assume: arn:aws:iam::${{ inputs.aws_account }}:role/github-actions-role
+
+      - name: Deploy project
+        run: pnpm nx run ${{ inputs.project }}:deploy
+        env:
+          GIT_VERSION: ${{ steps.set-git-version.outputs.GIT_VERSION }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.amazon_client_secret }}
+          AMPLIFY_ACCESS_TOKEN: ${{ secrets.amplify_access_token }}
+          FACEBOOK_CLIENT_SECRET: ${{ secrets.facebook_client_secret }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.google_client_secret }}
+          MICROSOFT_OIDC_CLIENT_SECRET: ${{ secrets.microsoft_oidc_client_secret }}
+          NUXT_UI_PRO_LICENSE: ${{ secrets.nuxt_ui_pro_license }}
+          NX_CLOUD_DISTRIBUTED_EXECUTION: false

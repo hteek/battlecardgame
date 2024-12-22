@@ -1,0 +1,58 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+  id-token: write
+
+env:
+  NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    outputs:
+      aws_account: ${{ vars.AWS_ACCOUNT }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+      - uses: nrwl/nx-set-shas@v4
+
+      - run: git branch --track main origin/main
+        if: github.event_name == 'pull_request'
+
+      - run: pnpm exec nx affected -t lint test build
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    concurrency: deployment
+    needs: [ main ]
+    uses: ./.github/workflows/deploy.yml
+    with:
+      aws_account: ${{ needs.main.outputs.aws_account }}
+      project: backend
+    secrets:
+      amazon_client_secret: ${{ secrets.AMAZON_CLIENT_SECRET }}
+      amplify_access_token: ${{ secrets.AMPLIFY_ACCESS_TOKEN }}
+      facebook_client_secret: ${{ secrets.FACEBOOK_CLIENT_SECRET }}
+      google_client_secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      microsoft_oidc_client_secret: ${{ secrets.MICROSOFT_OIDC_CLIENT_SECRET }}
+      nuxt_ui_pro_license: ${{ secrets.NUXT_UI_PRO_LICENSE }}
+

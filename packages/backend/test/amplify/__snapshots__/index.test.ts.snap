@@ -1,0 +1,1448 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Amplify nested stack > Test nested stack 1`] = `
+{
+  "Mappings": {
+    "AWSCloudFrontPartitionHostedZoneIdMap": {
+      "aws": {
+        "zoneId": "Z2FDTNDATAQYW2",
+      },
+      "aws-cn": {
+        "zoneId": "Z3RFFRIM2A3IF5",
+      },
+    },
+    "CloudwatchlambdainsightsversionMap": {
+      "af-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:af-south-1:012438385374:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-east-1:519774774795:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-northeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:31",
+      },
+      "ap-northeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:19",
+      },
+      "ap-northeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-3:194566237122:layer:LambdaInsightsExtension-Arm64:17",
+      },
+      "ap-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-1:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "ap-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-2:891564319516:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "ap-southeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-3:439286490199:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ca-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ca-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-north-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-north-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-1:339249233099:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-2:352183217350:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "eu-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-3:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "me-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:me-south-1:285320876703:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "sa-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:sa-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "us-east-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-2:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "us-gov-east-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-east-1:122132214140:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-gov-west-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-west-1:751350123760:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+    },
+    "LatestNodeRuntimeMap": {
+      "af-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-east-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-4": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-5": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-7": {
+        "value": "nodejs20.x",
+      },
+      "ca-central-1": {
+        "value": "nodejs20.x",
+      },
+      "ca-west-1": {
+        "value": "nodejs20.x",
+      },
+      "cn-north-1": {
+        "value": "nodejs18.x",
+      },
+      "cn-northwest-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-central-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-central-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-isoe-west-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-north-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-3": {
+        "value": "nodejs20.x",
+      },
+      "il-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-south-1": {
+        "value": "nodejs20.x",
+      },
+      "mx-central-1": {
+        "value": "nodejs20.x",
+      },
+      "sa-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-2": {
+        "value": "nodejs20.x",
+      },
+      "us-gov-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-gov-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-isob-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-west-1": {
+        "value": "nodejs20.x",
+      },
+      "us-west-2": {
+        "value": "nodejs20.x",
+      },
+    },
+  },
+  "Outputs": {
+    "TestStackAmplifyConfigBucketF7875FD5Ref": {
+      "Value": {
+        "Ref": "ConfigBucket2112C5EC",
+      },
+    },
+    "TestStackAmplifyConfigDistribution9E50FDDBRef": {
+      "Value": {
+        "Ref": "ConfigDistribution33A7137B",
+      },
+    },
+  },
+  "Parameters": {
+    "referencetoTestStackAWSStackId": {
+      "Type": "String",
+    },
+  },
+  "Resources": {
+    "AmplifyApp": {
+      "Properties": {
+        "AccessToken": {
+          "Fn::Join": [
+            "",
+            [
+              "{{resolve:secretsmanager:",
+              {
+                "Ref": "SecretA720EF05",
+              },
+              ":SecretString:::}}",
+            ],
+          ],
+        },
+        "EnvironmentVariables": [
+          {
+            "Name": "AMPLIFY_DIFF_DEPLOY",
+            "Value": "false",
+          },
+          {
+            "Name": "AMPLIFY_MONOREPO_APP_ROOT",
+            "Value": "packages/frontend",
+          },
+          {
+            "Name": "NUXT_UI_PRO_LICENSE",
+            "Value": "XYZ",
+          },
+        ],
+        "IAMServiceRole": {
+          "Fn::GetAtt": [
+            "AmplifyRole7A8FD9BC",
+            "Arn",
+          ],
+        },
+        "Name": "test-project",
+        "Platform": "WEB_COMPUTE",
+        "Repository": "https://github.com/owner/repo",
+      },
+      "Type": "AWS::Amplify::App",
+    },
+    "AmplifyBranch": {
+      "Properties": {
+        "AppId": {
+          "Fn::GetAtt": [
+            "AmplifyApp",
+            "AppId",
+          ],
+        },
+        "BranchName": "main",
+        "EnableAutoBuild": false,
+        "EnvironmentVariables": [
+          {
+            "Name": "AMPLIFY_DIFF_DEPLOY",
+            "Value": "false",
+          },
+          {
+            "Name": "AMPLIFY_MONOREPO_APP_ROOT",
+            "Value": "packages/frontend",
+          },
+        ],
+        "Framework": "Web",
+        "Stage": "PRODUCTION",
+      },
+      "Type": "AWS::Amplify::Branch",
+    },
+    "AmplifyDomain": {
+      "DependsOn": [
+        "AmplifyBranch",
+      ],
+      "Properties": {
+        "AppId": {
+          "Fn::GetAtt": [
+            "AmplifyApp",
+            "AppId",
+          ],
+        },
+        "CertificateSettings": {
+          "CertificateType": "CUSTOM",
+          "CustomCertificateArn": "arn:aws:acm:us-east-1:account:certificate/certificate_id",
+        },
+        "DomainName": "my.custom.domain",
+        "EnableAutoSubDomain": false,
+        "SubDomainSettings": [
+          {
+            "BranchName": "main",
+            "Prefix": "",
+          },
+        ],
+      },
+      "Type": "AWS::Amplify::Domain",
+    },
+    "AmplifyRole7A8FD9BC": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "amplify.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AmplifyBackendDeployFullAccess",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "AmplifyRoleAmplifyRolePolicyE24CC671": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+              ],
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:logs:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":log-group:/aws/amplify/*:log-stream:*",
+                  ],
+                ],
+              },
+              "Sid": "PushLogs",
+            },
+            {
+              "Action": "logs:CreateLogGroup",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:logs:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":log-group:/aws/amplify/*",
+                  ],
+                ],
+              },
+              "Sid": "CreateLogGroup",
+            },
+            {
+              "Action": "logs:DescribeLogGroups",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:logs:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":log-group:*",
+                  ],
+                ],
+              },
+              "Sid": "DescribeLogGroups",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "AmplifyRoleAmplifyRolePolicyE24CC671",
+        "Roles": [
+          {
+            "Ref": "AmplifyRole7A8FD9BC",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ConfigARecordA9FCD051": {
+      "Properties": {
+        "AliasTarget": {
+          "DNSName": {
+            "Fn::GetAtt": [
+              "ConfigDistribution33A7137B",
+              "DomainName",
+            ],
+          },
+          "HostedZoneId": {
+            "Fn::FindInMap": [
+              "AWSCloudFrontPartitionHostedZoneIdMap",
+              {
+                "Ref": "AWS::Partition",
+              },
+              "zoneId",
+            ],
+          },
+        },
+        "HostedZoneId": "XXX",
+        "Name": "config.my.custom.domain.",
+        "Type": "A",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "ConfigAaaaRecordE9688E44": {
+      "Properties": {
+        "AliasTarget": {
+          "DNSName": {
+            "Fn::GetAtt": [
+              "ConfigDistribution33A7137B",
+              "DomainName",
+            ],
+          },
+          "HostedZoneId": {
+            "Fn::FindInMap": [
+              "AWSCloudFrontPartitionHostedZoneIdMap",
+              {
+                "Ref": "AWS::Partition",
+              },
+              "zoneId",
+            ],
+          },
+        },
+        "HostedZoneId": "XXX",
+        "Name": "config.my.custom.domain.",
+        "Type": "AAAA",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "ConfigBucket2112C5EC": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            {
+              "ServerSideEncryptionByDefault": {
+                "SSEAlgorithm": "AES256",
+              },
+            },
+          ],
+        },
+        "LoggingConfiguration": {
+          "DestinationBucketName": {
+            "Ref": "ConfigBucketAccessLogsB567E357",
+          },
+        },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+        "Tags": [
+          {
+            "Key": "aws-cdk:auto-delete-objects",
+            "Value": "true",
+          },
+        ],
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigBucketAccessLogsAutoDeleteObjectsCustomResourceD9EAC3FB": {
+      "DeletionPolicy": "Delete",
+      "DependsOn": [
+        "ConfigBucketAccessLogsPolicyBB26F6F6",
+      ],
+      "Properties": {
+        "BucketName": {
+          "Ref": "ConfigBucketAccessLogsB567E357",
+        },
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::S3AutoDeleteObjects",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigBucketAccessLogsB567E357": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "AccessControl": "LogDeliveryWrite",
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            {
+              "ServerSideEncryptionByDefault": {
+                "SSEAlgorithm": "AES256",
+              },
+            },
+          ],
+        },
+        "OwnershipControls": {
+          "Rules": [
+            {
+              "ObjectOwnership": "ObjectWriter",
+            },
+          ],
+        },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+        "Tags": [
+          {
+            "Key": "aws-cdk:auto-delete-objects",
+            "Value": "true",
+          },
+        ],
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigBucketAccessLogsPolicyBB26F6F6": {
+      "Properties": {
+        "Bucket": {
+          "Ref": "ConfigBucketAccessLogsB567E357",
+        },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "s3:*",
+              "Condition": {
+                "Bool": {
+                  "aws:SecureTransport": "false",
+                },
+              },
+              "Effect": "Deny",
+              "Principal": {
+                "AWS": "*",
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigBucketAccessLogsB567E357",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigBucketAccessLogsB567E357",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": [
+                "s3:PutBucketPolicy",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "AWS": {
+                  "Fn::GetAtt": [
+                    "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+                    "Arn",
+                  ],
+                },
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigBucketAccessLogsB567E357",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigBucketAccessLogsB567E357",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::S3::BucketPolicy",
+    },
+    "ConfigBucketAutoDeleteObjectsCustomResource98D45317": {
+      "DeletionPolicy": "Delete",
+      "DependsOn": [
+        "ConfigBucketPolicy6D5E90FF",
+      ],
+      "Properties": {
+        "BucketName": {
+          "Ref": "ConfigBucket2112C5EC",
+        },
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::S3AutoDeleteObjects",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigBucketPolicy6D5E90FF": {
+      "Properties": {
+        "Bucket": {
+          "Ref": "ConfigBucket2112C5EC",
+        },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "s3:*",
+              "Condition": {
+                "Bool": {
+                  "aws:SecureTransport": "false",
+                },
+              },
+              "Effect": "Deny",
+              "Principal": {
+                "AWS": "*",
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigBucket2112C5EC",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigBucket2112C5EC",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": [
+                "s3:PutBucketPolicy",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "AWS": {
+                  "Fn::GetAtt": [
+                    "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+                    "Arn",
+                  ],
+                },
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigBucket2112C5EC",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigBucket2112C5EC",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": "s3:GetObject",
+              "Condition": {
+                "StringEquals": {
+                  "AWS:SourceArn": {
+                    "Fn::Join": [
+                      "",
+                      [
+                        "arn:",
+                        {
+                          "Ref": "AWS::Partition",
+                        },
+                        ":cloudfront::",
+                        {
+                          "Ref": "AWS::AccountId",
+                        },
+                        ":distribution/",
+                        {
+                          "Ref": "ConfigDistribution33A7137B",
+                        },
+                      ],
+                    ],
+                  },
+                },
+              },
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "cloudfront.amazonaws.com",
+              },
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "ConfigBucket2112C5EC",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::S3::BucketPolicy",
+    },
+    "ConfigDistribution33A7137B": {
+      "Properties": {
+        "DistributionConfig": {
+          "Aliases": [
+            "config.my.custom.domain",
+          ],
+          "DefaultCacheBehavior": {
+            "AllowedMethods": [
+              "GET",
+              "HEAD",
+              "OPTIONS",
+            ],
+            "CachePolicyId": "658327ea-f89d-4fab-a63d-7e88639e58f6",
+            "Compress": true,
+            "OriginRequestPolicyId": "88a5eaf4-2fd4-4709-b370-b4c650ea3fcf",
+            "ResponseHeadersPolicyId": "5cc3b908-e619-4b99-88e5-2cf7f45965bd",
+            "TargetOriginId": "TestStackAmplifyConfigDistributionOrigin153961252",
+            "ViewerProtocolPolicy": "redirect-to-https",
+          },
+          "Enabled": true,
+          "HttpVersion": "http2",
+          "IPV6Enabled": true,
+          "Logging": {
+            "Bucket": {
+              "Fn::GetAtt": [
+                "ConfigDistributionAccessLogsE11D94BC",
+                "RegionalDomainName",
+              ],
+            },
+          },
+          "Origins": [
+            {
+              "DomainName": {
+                "Fn::GetAtt": [
+                  "ConfigBucket2112C5EC",
+                  "RegionalDomainName",
+                ],
+              },
+              "Id": "TestStackAmplifyConfigDistributionOrigin153961252",
+              "OriginAccessControlId": {
+                "Fn::GetAtt": [
+                  "ConfigDistributionOrigin1S3OriginAccessControlC032204F",
+                  "Id",
+                ],
+              },
+              "S3OriginConfig": {
+                "OriginAccessIdentity": "",
+              },
+            },
+          ],
+          "ViewerCertificate": {
+            "AcmCertificateArn": "arn:aws:acm:us-east-1:account:certificate/certificate_id",
+            "MinimumProtocolVersion": "TLSv1.2_2021",
+            "SslSupportMethod": "sni-only",
+          },
+        },
+      },
+      "Type": "AWS::CloudFront::Distribution",
+    },
+    "ConfigDistributionAccessLogsAutoDeleteObjectsCustomResourceF08E1F2A": {
+      "DeletionPolicy": "Delete",
+      "DependsOn": [
+        "ConfigDistributionAccessLogsPolicy89B236A4",
+      ],
+      "Properties": {
+        "BucketName": {
+          "Ref": "ConfigDistributionAccessLogsE11D94BC",
+        },
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::S3AutoDeleteObjects",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigDistributionAccessLogsE11D94BC": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "AccessControl": "LogDeliveryWrite",
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            {
+              "ServerSideEncryptionByDefault": {
+                "SSEAlgorithm": "AES256",
+              },
+            },
+          ],
+        },
+        "OwnershipControls": {
+          "Rules": [
+            {
+              "ObjectOwnership": "ObjectWriter",
+            },
+          ],
+        },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+        "Tags": [
+          {
+            "Key": "aws-cdk:auto-delete-objects",
+            "Value": "true",
+          },
+        ],
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "ConfigDistributionAccessLogsPolicy89B236A4": {
+      "Properties": {
+        "Bucket": {
+          "Ref": "ConfigDistributionAccessLogsE11D94BC",
+        },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "s3:*",
+              "Condition": {
+                "Bool": {
+                  "aws:SecureTransport": "false",
+                },
+              },
+              "Effect": "Deny",
+              "Principal": {
+                "AWS": "*",
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigDistributionAccessLogsE11D94BC",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigDistributionAccessLogsE11D94BC",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": [
+                "s3:PutBucketPolicy",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "AWS": {
+                  "Fn::GetAtt": [
+                    "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+                    "Arn",
+                  ],
+                },
+              },
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ConfigDistributionAccessLogsE11D94BC",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ConfigDistributionAccessLogsE11D94BC",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::S3::BucketPolicy",
+    },
+    "ConfigDistributionOrigin1S3OriginAccessControlC032204F": {
+      "Properties": {
+        "OriginAccessControlConfig": {
+          "Name": "TestStackAmplifyConfigDistriOrigin1S3OriginAccessControlC1AB3222",
+          "OriginAccessControlOriginType": "s3",
+          "SigningBehavior": "always",
+          "SigningProtocol": "sigv4",
+        },
+      },
+      "Type": "AWS::CloudFront::OriginAccessControl",
+    },
+    "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F": {
+      "DependsOn": [
+        "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Description": {
+          "Fn::Join": [
+            "",
+            [
+              "Lambda function for auto-deleting objects in ",
+              {
+                "Ref": "ConfigBucketAccessLogsB567E357",
+              },
+              " S3 bucket.",
+            ],
+          ],
+        },
+        "Handler": "index.handler",
+        "MemorySize": 128,
+        "Role": {
+          "Fn::GetAtt": [
+            "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+            "Arn",
+          ],
+        },
+        "Runtime": {
+          "Fn::FindInMap": [
+            "LatestNodeRuntimeMap",
+            {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Sub": "arn:\${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "DeployFunction787AD8CC": {
+      "DependsOn": [
+        "DeployFunctionServiceRoleDefaultPolicy9EC84FE4",
+        "DeployFunctionServiceRole19D7D428",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "APP_ID": {
+              "Fn::GetAtt": [
+                "AmplifyApp",
+                "AppId",
+              ],
+            },
+            "BRANCH_NAME": "main",
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Amplify",
+            "POWERTOOLS_SERVICE_NAME": "Deploy",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "DeployFunctionServiceRole19D7D428",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "DeployFunctionAmplifyDeployPolicyEBDCA299": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "amplify:StartJob",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:amplify:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":apps/",
+                    {
+                      "Fn::GetAtt": [
+                        "AmplifyApp",
+                        "AppId",
+                      ],
+                    },
+                    "/branches/main/jobs/*",
+                  ],
+                ],
+              },
+              "Sid": "StartJob",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "DeployFunctionAmplifyDeployPolicyEBDCA299",
+        "Roles": [
+          {
+            "Ref": "DeployFunctionServiceRole19D7D428",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "DeployFunctionAmplifyDeployTriggerRuleAllowEventRuleTestStackAmplifyDeployFunction086C7781FE63B621": {
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "DeployFunction787AD8CC",
+            "Arn",
+          ],
+        },
+        "Principal": "events.amazonaws.com",
+        "SourceArn": {
+          "Fn::GetAtt": [
+            "DeployFunctionAmplifyDeployTriggerRuleC339E0B6",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "DeployFunctionAmplifyDeployTriggerRuleC339E0B6": {
+      "Properties": {
+        "Description": "Rule to trigger Amplify deploy",
+        "EventPattern": {
+          "detail": {
+            "stack-id": [
+              {
+                "Ref": "referencetoTestStackAWSStackId",
+              },
+            ],
+            "status-details": {
+              "status": [
+                "CREATE_COMPLETE",
+                "UPDATE_COMPLETE",
+              ],
+            },
+          },
+          "detail-type": [
+            "CloudFormation Stack Status Change",
+          ],
+          "resources": [
+            {
+              "Ref": "referencetoTestStackAWSStackId",
+            },
+          ],
+          "source": [
+            "aws.cloudformation",
+          ],
+        },
+        "State": "ENABLED",
+        "Targets": [
+          {
+            "Arn": {
+              "Fn::GetAtt": [
+                "DeployFunction787AD8CC",
+                "Arn",
+              ],
+            },
+            "Id": "Target0",
+          },
+        ],
+      },
+      "Type": "AWS::Events::Rule",
+    },
+    "DeployFunctionLogRetention15ACFF6A": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "DeployFunction787AD8CC",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "DeployFunctionServiceRole19D7D428": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "DeployFunctionServiceRoleDefaultPolicy9EC84FE4": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "DeployFunctionServiceRoleDefaultPolicy9EC84FE4",
+        "Roles": [
+          {
+            "Ref": "DeployFunctionServiceRole19D7D428",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A": {
+      "DependsOn": [
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Handler": "index.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+            "Arn",
+          ],
+        },
+        "Runtime": {
+          "Fn::FindInMap": [
+            "LatestNodeRuntimeMap",
+            {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "logs:PutRetentionPolicy",
+                "logs:DeleteRetentionPolicy",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "Roles": [
+          {
+            "Ref": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "SecretA720EF05": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "GenerateSecretString": {},
+        "Name": "test-project/amplify/github-access-token",
+        "SecretString": "",
+      },
+      "Type": "AWS::SecretsManager::Secret",
+      "UpdateReplacePolicy": "Delete",
+    },
+  },
+}
+`;

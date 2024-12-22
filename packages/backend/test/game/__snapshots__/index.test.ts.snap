@@ -1,0 +1,2870 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Game nested stack > Test default stack 1`] = `
+{
+  "Mappings": {
+    "CloudwatchlambdainsightsversionMap": {
+      "af-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:af-south-1:012438385374:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-east-1:519774774795:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ap-northeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:31",
+      },
+      "ap-northeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:19",
+      },
+      "ap-northeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-northeast-3:194566237122:layer:LambdaInsightsExtension-Arm64:17",
+      },
+      "ap-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-1:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "ap-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-south-2:891564319516:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "ap-southeast-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "ap-southeast-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ap-southeast-3:439286490199:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "ca-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:ca-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-central-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-central-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-north-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-north-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-1:339249233099:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "eu-south-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-south-2:352183217350:layer:LambdaInsightsExtension-Arm64:6",
+      },
+      "eu-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "eu-west-3": {
+        "1x0x333x0xarm64": "arn:aws:lambda:eu-west-3:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "me-south-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:me-south-1:285320876703:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "sa-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:sa-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-east-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+      "us-east-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-east-2:580247275435:layer:LambdaInsightsExtension-Arm64:22",
+      },
+      "us-gov-east-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-east-1:122132214140:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-gov-west-1": {
+        "1x0x333x0xarm64": "arn:aws-us-gov:lambda:us-gov-west-1:751350123760:layer:LambdaInsightsExtension-Arm64:3",
+      },
+      "us-west-1": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-1:580247275435:layer:LambdaInsightsExtension-Arm64:18",
+      },
+      "us-west-2": {
+        "1x0x333x0xarm64": "arn:aws:lambda:us-west-2:580247275435:layer:LambdaInsightsExtension-Arm64:20",
+      },
+    },
+    "LatestNodeRuntimeMap": {
+      "af-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-east-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-northeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-south-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-1": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-2": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-3": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-4": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-5": {
+        "value": "nodejs20.x",
+      },
+      "ap-southeast-7": {
+        "value": "nodejs20.x",
+      },
+      "ca-central-1": {
+        "value": "nodejs20.x",
+      },
+      "ca-west-1": {
+        "value": "nodejs20.x",
+      },
+      "cn-north-1": {
+        "value": "nodejs18.x",
+      },
+      "cn-northwest-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-central-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-central-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-isoe-west-1": {
+        "value": "nodejs18.x",
+      },
+      "eu-north-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-south-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-1": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-2": {
+        "value": "nodejs20.x",
+      },
+      "eu-west-3": {
+        "value": "nodejs20.x",
+      },
+      "il-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-central-1": {
+        "value": "nodejs20.x",
+      },
+      "me-south-1": {
+        "value": "nodejs20.x",
+      },
+      "mx-central-1": {
+        "value": "nodejs20.x",
+      },
+      "sa-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-1": {
+        "value": "nodejs20.x",
+      },
+      "us-east-2": {
+        "value": "nodejs20.x",
+      },
+      "us-gov-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-gov-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-iso-west-1": {
+        "value": "nodejs18.x",
+      },
+      "us-isob-east-1": {
+        "value": "nodejs18.x",
+      },
+      "us-west-1": {
+        "value": "nodejs20.x",
+      },
+      "us-west-2": {
+        "value": "nodejs20.x",
+      },
+    },
+  },
+  "Resources": {
+    "CreateGameFunction3EFDC78C": {
+      "DependsOn": [
+        "CreateGameFunctionServiceRoleDefaultPolicy9F2CAE60",
+        "CreateGameFunctionServiceRoleD374238B",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "EVENT_BUS_NAME": "testEventBus",
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "CreateGame",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "CreateGameFunctionServiceRoleD374238B",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "CreateGameFunctionLogRetentionA6358B34": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "CreateGameFunction3EFDC78C",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "CreateGameFunctionServiceRoleD374238B": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "CreateGameFunctionServiceRoleDefaultPolicy9F2CAE60": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+            {
+              "Action": "events:PutEvents",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":events:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":event-bus/testEventBus",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "CreateGameFunctionServiceRoleDefaultPolicy9F2CAE60",
+        "Roles": [
+          {
+            "Ref": "CreateGameFunctionServiceRoleD374238B",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApi379C4840": {
+      "Properties": {
+        "AdditionalAuthenticationProviders": [
+          {
+            "AuthenticationType": "AWS_IAM",
+          },
+        ],
+        "AuthenticationType": "AMAZON_COGNITO_USER_POOLS",
+        "LogConfig": {
+          "CloudWatchLogsRoleArn": {
+            "Fn::GetAtt": [
+              "GameGraphqlApiApiLogsRoleF9FFACBE",
+              "Arn",
+            ],
+          },
+          "ExcludeVerboseContent": false,
+          "FieldLogLevel": "NONE",
+        },
+        "Name": "test-project-game",
+        "UserPoolConfig": {
+          "AwsRegion": {
+            "Ref": "AWS::Region",
+          },
+          "DefaultAction": "ALLOW",
+          "UserPoolId": "testUserPool",
+        },
+        "Visibility": "PRIVATE",
+        "XrayEnabled": true,
+      },
+      "Type": "AWS::AppSync::GraphQLApi",
+    },
+    "GameGraphqlApiApiLogsRoleF9FFACBE": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSAppSyncPushToCloudWatchLogs",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiCreateGameDataSourceD929832A": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "CreateGameFunction3EFDC78C",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "CreateGameDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiCreateGameDataSourceServiceRole20DE247C",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiCreateGameDataSourceServiceRole20DE247C": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiCreateGameDataSourceServiceRoleDefaultPolicyDE0BBCE2": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "CreateGameFunction3EFDC78C",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "CreateGameFunction3EFDC78C",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiCreateGameDataSourceServiceRoleDefaultPolicyDE0BBCE2",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiCreateGameDataSourceServiceRole20DE247C",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiGetEventByIdDataSourceAABD200E": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "GetEventByIdFunction15E8529F",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "GetEventByIdDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiGetEventByIdDataSourceServiceRoleE092A655",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiGetEventByIdDataSourceServiceRoleDefaultPolicy93FAC2F0": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "GetEventByIdFunction15E8529F",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "GetEventByIdFunction15E8529F",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiGetEventByIdDataSourceServiceRoleDefaultPolicy93FAC2F0",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiGetEventByIdDataSourceServiceRoleE092A655",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiGetEventByIdDataSourceServiceRoleE092A655": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiGetGameByIdDataSource86FCF53A": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "GetGameByIdFunctionF414C0BC",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "GetGameByIdDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiGetGameByIdDataSourceServiceRoleBDFAA39D",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiGetGameByIdDataSourceServiceRoleBDFAA39D": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiGetGameByIdDataSourceServiceRoleDefaultPolicy00C1523B": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "GetGameByIdFunctionF414C0BC",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "GetGameByIdFunctionF414C0BC",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiGetGameByIdDataSourceServiceRoleDefaultPolicy00C1523B",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiGetGameByIdDataSourceServiceRoleBDFAA39D",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiJoinGameDataSource93BDC9B5": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "JoinGameFunction1CF3EED1",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "JoinGameDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiJoinGameDataSourceServiceRole22E02BFD",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiJoinGameDataSourceServiceRole22E02BFD": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiJoinGameDataSourceServiceRoleDefaultPolicyBD11945A": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "JoinGameFunction1CF3EED1",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "JoinGameFunction1CF3EED1",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiJoinGameDataSourceServiceRoleDefaultPolicyBD11945A",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiJoinGameDataSourceServiceRole22E02BFD",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiListEventsByGameIdDataSource637C08C2": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "ListEventsByGameIdFunction84F390E6",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "ListEventsByGameIdDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiListEventsByGameIdDataSourceServiceRole41055EB4",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiListEventsByGameIdDataSourceServiceRole41055EB4": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiListEventsByGameIdDataSourceServiceRoleDefaultPolicy0A3C45B6": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ListEventsByGameIdFunction84F390E6",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ListEventsByGameIdFunction84F390E6",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiListEventsByGameIdDataSourceServiceRoleDefaultPolicy0A3C45B6",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiListEventsByGameIdDataSourceServiceRole41055EB4",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiListGamesByOpponentIdDataSource7736CC6F": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "ListGamesByOpponentIdFunctionFC027012",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "ListGamesByOpponentIdDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiListGamesByOpponentIdDataSourceServiceRole80E00C43",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiListGamesByOpponentIdDataSourceServiceRole80E00C43": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiListGamesByOpponentIdDataSourceServiceRoleDefaultPolicy3FD6FA65": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ListGamesByOpponentIdFunctionFC027012",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ListGamesByOpponentIdFunctionFC027012",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiListGamesByOpponentIdDataSourceServiceRoleDefaultPolicy3FD6FA65",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiListGamesByOpponentIdDataSourceServiceRole80E00C43",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiListGamesDataSourceE0D498D7": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "ListGamesFunction6208DAE9",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "ListGamesDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiListGamesDataSourceServiceRoleFBFBBF5F",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiListGamesDataSourceServiceRoleDefaultPolicy86183EE5": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "ListGamesFunction6208DAE9",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "ListGamesFunction6208DAE9",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiListGamesDataSourceServiceRoleDefaultPolicy86183EE5",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiListGamesDataSourceServiceRoleFBFBBF5F",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiListGamesDataSourceServiceRoleFBFBBF5F": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiLogRetention6A4EF829": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/appsync/apis/",
+              {
+                "Fn::GetAtt": [
+                  "GameGraphqlApi379C4840",
+                  "ApiId",
+                ],
+              },
+            ],
+          ],
+        },
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "GameGraphqlApiMutationcreateGameResolver17B9CEE1": {
+      "DependsOn": [
+        "GameGraphqlApiCreateGameDataSourceD929832A",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "CreateGameDataSource",
+        "FieldName": "createGame",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Mutation",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiMutationjoinGameResolver00030E3B": {
+      "DependsOn": [
+        "GameGraphqlApiJoinGameDataSource93BDC9B5",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "JoinGameDataSource",
+        "FieldName": "joinGame",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Mutation",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiMutationplayGameResolver3ECCAC79": {
+      "DependsOn": [
+        "GameGraphqlApiPlayGameDataSource0694BB7A",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "PlayGameDataSource",
+        "FieldName": "playGame",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Mutation",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiPlayGameDataSource0694BB7A": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "LambdaConfig": {
+          "LambdaFunctionArn": {
+            "Fn::GetAtt": [
+              "PlayGameFunction180B31AB",
+              "Arn",
+            ],
+          },
+        },
+        "Name": "PlayGameDataSource",
+        "ServiceRoleArn": {
+          "Fn::GetAtt": [
+            "GameGraphqlApiPlayGameDataSourceServiceRole854AC0D0",
+            "Arn",
+          ],
+        },
+        "Type": "AWS_LAMBDA",
+      },
+      "Type": "AWS::AppSync::DataSource",
+    },
+    "GameGraphqlApiPlayGameDataSourceServiceRole854AC0D0": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "appsync.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GameGraphqlApiPlayGameDataSourceServiceRoleDefaultPolicy40AF471E": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayGameFunction180B31AB",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayGameFunction180B31AB",
+                          "Arn",
+                        ],
+                      },
+                      ":*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GameGraphqlApiPlayGameDataSourceServiceRoleDefaultPolicy40AF471E",
+        "Roles": [
+          {
+            "Ref": "GameGraphqlApiPlayGameDataSourceServiceRole854AC0D0",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GameGraphqlApiQuerygetEventByIdResolverD82ED203": {
+      "DependsOn": [
+        "GameGraphqlApiGetEventByIdDataSourceAABD200E",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "GetEventByIdDataSource",
+        "FieldName": "getEventById",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Query",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiQuerygetGameByIdResolver68931858": {
+      "DependsOn": [
+        "GameGraphqlApiGetGameByIdDataSource86FCF53A",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "GetGameByIdDataSource",
+        "FieldName": "getGameById",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Query",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiQuerylistEventsByGameIdResolver3D3FB590": {
+      "DependsOn": [
+        "GameGraphqlApiListEventsByGameIdDataSource637C08C2",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "ListEventsByGameIdDataSource",
+        "FieldName": "listEventsByGameId",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Query",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiQuerylistGamesByOpponentIdResolver8075AE4F": {
+      "DependsOn": [
+        "GameGraphqlApiListGamesByOpponentIdDataSource7736CC6F",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "ListGamesByOpponentIdDataSource",
+        "FieldName": "listGamesByOpponentId",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Query",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiQuerylistGamesResolverB4FDC4D0": {
+      "DependsOn": [
+        "GameGraphqlApiListGamesDataSourceE0D498D7",
+        "GameGraphqlApiSchema21B9254E",
+      ],
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "DataSourceName": "ListGamesDataSource",
+        "FieldName": "listGames",
+        "Kind": "UNIT",
+        "RequestMappingTemplate": "{"version": "2017-02-28", "operation": "Invoke", "payload": $util.toJson($ctx)}",
+        "ResponseMappingTemplate": "$util.toJson($ctx.result)",
+        "TypeName": "Query",
+      },
+      "Type": "AWS::AppSync::Resolver",
+    },
+    "GameGraphqlApiSchema21B9254E": {
+      "Properties": {
+        "ApiId": {
+          "Fn::GetAtt": [
+            "GameGraphqlApi379C4840",
+            "ApiId",
+          ],
+        },
+        "Definition": "schema {
+  query: Query
+  mutation: Mutation
+}
+type Mutation {
+  joinGame(id: ID!): Event
+  playGame(id: ID! name: String! data: EventDataInput): Event
+  createGame(email: AWSEmail!): Game
+}
+type Query {
+  getEventById(id: ID!): Event
+  listEventsByGameId(gameId: ID!): [Event]
+  getGameById(id: ID!): Game
+  listGamesByOpponentId: [Game]
+  listGames: [Game]
+}
+type Event {
+  created: AWSDateTime!
+  data: EventData
+  gameId: ID!
+  id: ID!
+  name: ID!
+  opponentId: ID!
+  updated: AWSDateTime
+  userId: ID!
+}
+type EventData {
+  card: String
+  from: String!
+  fromPosition: Int
+  to: String!
+  toPosition: Int
+}
+input EventDataInput {
+  card: String
+  from: String!
+  fromPosition: Int
+  to: String!
+  toPosition: Int
+}
+type Game {
+  created: AWSDateTime!
+  id: ID!
+  userEmail: ID!
+  userId: ID!
+  opponentEmail: ID!
+  opponentId: ID!
+  updated: AWSDateTime
+}
+",
+      },
+      "Type": "AWS::AppSync::GraphQLSchema",
+    },
+    "GetEventByIdFunction15E8529F": {
+      "DependsOn": [
+        "GetEventByIdFunctionServiceRoleDefaultPolicy6E7E307A",
+        "GetEventByIdFunctionServiceRoleD726A7F6",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "GetEventById",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "GetEventByIdFunctionServiceRoleD726A7F6",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "GetEventByIdFunctionLogRetentionD2B4B3DE": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "GetEventByIdFunction15E8529F",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "GetEventByIdFunctionServiceRoleD726A7F6": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GetEventByIdFunctionServiceRoleDefaultPolicy6E7E307A": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GetEventByIdFunctionServiceRoleDefaultPolicy6E7E307A",
+        "Roles": [
+          {
+            "Ref": "GetEventByIdFunctionServiceRoleD726A7F6",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "GetGameByIdFunctionF414C0BC": {
+      "DependsOn": [
+        "GetGameByIdFunctionServiceRoleDefaultPolicyF6C684D5",
+        "GetGameByIdFunctionServiceRole0DAD7151",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "GetGameById",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "GetGameByIdFunctionServiceRole0DAD7151",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "GetGameByIdFunctionLogRetention70062132": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "GetGameByIdFunctionF414C0BC",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "GetGameByIdFunctionServiceRole0DAD7151": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "GetGameByIdFunctionServiceRoleDefaultPolicyF6C684D5": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "GetGameByIdFunctionServiceRoleDefaultPolicyF6C684D5",
+        "Roles": [
+          {
+            "Ref": "GetGameByIdFunctionServiceRole0DAD7151",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "JoinGameFunction1CF3EED1": {
+      "DependsOn": [
+        "JoinGameFunctionServiceRoleDefaultPolicy1700D12A",
+        "JoinGameFunctionServiceRole634B83EE",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "EVENT_BUS_NAME": "testEventBus",
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "JoinGame",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "JoinGameFunctionServiceRole634B83EE",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "JoinGameFunctionLogRetentionBC38F9F0": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "JoinGameFunction1CF3EED1",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "JoinGameFunctionServiceRole634B83EE": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "JoinGameFunctionServiceRoleDefaultPolicy1700D12A": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+            {
+              "Action": "events:PutEvents",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":events:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":event-bus/testEventBus",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "JoinGameFunctionServiceRoleDefaultPolicy1700D12A",
+        "Roles": [
+          {
+            "Ref": "JoinGameFunctionServiceRole634B83EE",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ListEventsByGameIdFunction84F390E6": {
+      "DependsOn": [
+        "ListEventsByGameIdFunctionServiceRoleDefaultPolicy4E3DC0D1",
+        "ListEventsByGameIdFunctionServiceRole48C60BC7",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "ListEventsByGameId",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "ListEventsByGameIdFunctionServiceRole48C60BC7",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "ListEventsByGameIdFunctionLogRetention4FA9EA5C": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "ListEventsByGameIdFunction84F390E6",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "ListEventsByGameIdFunctionServiceRole48C60BC7": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ListEventsByGameIdFunctionServiceRoleDefaultPolicy4E3DC0D1": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "ListEventsByGameIdFunctionServiceRoleDefaultPolicy4E3DC0D1",
+        "Roles": [
+          {
+            "Ref": "ListEventsByGameIdFunctionServiceRole48C60BC7",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ListGamesByOpponentIdFunctionFC027012": {
+      "DependsOn": [
+        "ListGamesByOpponentIdFunctionServiceRoleDefaultPolicyB93C6575",
+        "ListGamesByOpponentIdFunctionServiceRoleDE712B8E",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "ListGamesByOpponentId",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "ListGamesByOpponentIdFunctionServiceRoleDE712B8E",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "ListGamesByOpponentIdFunctionLogRetention56893D95": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "ListGamesByOpponentIdFunctionFC027012",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "ListGamesByOpponentIdFunctionServiceRoleDE712B8E": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ListGamesByOpponentIdFunctionServiceRoleDefaultPolicyB93C6575": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "ListGamesByOpponentIdFunctionServiceRoleDefaultPolicyB93C6575",
+        "Roles": [
+          {
+            "Ref": "ListGamesByOpponentIdFunctionServiceRoleDE712B8E",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ListGamesFunction6208DAE9": {
+      "DependsOn": [
+        "ListGamesFunctionServiceRoleDefaultPolicyD1524CA5",
+        "ListGamesFunctionServiceRoleB3050BBE",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "ListGames",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "ListGamesFunctionServiceRoleB3050BBE",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "ListGamesFunctionLogRetentionD7CA51B6": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "ListGamesFunction6208DAE9",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "ListGamesFunctionServiceRoleB3050BBE": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ListGamesFunctionServiceRoleDefaultPolicyD1524CA5": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "ListGamesFunctionServiceRoleDefaultPolicyD1524CA5",
+        "Roles": [
+          {
+            "Ref": "ListGamesFunctionServiceRoleB3050BBE",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A": {
+      "DependsOn": [
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Handler": "index.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+            "Arn",
+          ],
+        },
+        "Runtime": {
+          "Fn::FindInMap": [
+            "LatestNodeRuntimeMap",
+            {
+              "Ref": "AWS::Region",
+            },
+            "value",
+          ],
+        },
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "logs:PutRetentionPolicy",
+                "logs:DeleteRetentionPolicy",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "Roles": [
+          {
+            "Ref": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "PlayGameFunction180B31AB": {
+      "DependsOn": [
+        "PlayGameFunctionServiceRoleDefaultPolicy16F645D6",
+        "PlayGameFunctionServiceRole5A3594B4",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "[FILENAME REMOVED]",
+        },
+        "Environment": {
+          "Variables": {
+            "EVENT_BUS_NAME": "testEventBus",
+            "LOG_LEVEL": "ERROR",
+            "NODE_OPTIONS": "--enable-source-maps",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "false",
+            "POWERTOOLS_LOGGER_SAMPLE_RATE": "0",
+            "POWERTOOLS_METRICS_NAMESPACE": "Game",
+            "POWERTOOLS_SERVICE_NAME": "PlayGame",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "POWERTOOLS_TRACER_CAPTURE_HTTPS_REQUESTS": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACE_ENABLED": "true",
+            "TABLE": "testTable",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Fn::FindInMap": [
+              "CloudwatchlambdainsightsversionMap",
+              {
+                "Ref": "AWS::Region",
+              },
+              "1x0x333x0xarm64",
+            ],
+          },
+        ],
+        "MemorySize": 3008,
+        "Role": {
+          "Fn::GetAtt": [
+            "PlayGameFunctionServiceRole5A3594B4",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+        "Timeout": 60,
+        "TracingConfig": {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "PlayGameFunctionLogRetentionE59EE77D": {
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "PlayGameFunction180B31AB",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 14,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "PlayGameFunctionServiceRole5A3594B4": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "PlayGameFunctionServiceRoleDefaultPolicy16F645D6": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            {
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:Query",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeTable",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":dynamodb:",
+                      {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":table/testTable",
+                    ],
+                  ],
+                },
+                {
+                  "Ref": "AWS::NoValue",
+                },
+              ],
+            },
+            {
+              "Action": "events:PutEvents",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":events:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":event-bus/testEventBus",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "PlayGameFunctionServiceRoleDefaultPolicy16F645D6",
+        "Roles": [
+          {
+            "Ref": "PlayGameFunctionServiceRole5A3594B4",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+  },
+}
+`;

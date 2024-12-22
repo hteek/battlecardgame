@@ -1,0 +1,16 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands: [ 'corepack enable', 'pnpm install' ]
+        build:
+          commands:
+            - 'echo "NUXT_UI_PRO_LICENSE=$NUXT_UI_PRO_LICENSE" >> packages/frontend/.env'
+            - 'pnpm nx build frontend --skip-nx-cache'
+      artifacts:
+        baseDirectory: packages/frontend/.amplify-hosting
+        files:
+          - '**/*'
+      buildPath: /
+    appRoot: packages/frontend
