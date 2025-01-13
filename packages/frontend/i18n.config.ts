@@ -14,7 +14,7 @@ export default defineI18nConfig(() => ({
       game: {
         continue: '...or join an existing one!',
         create: 'Create new game!',
-        existing: 'Existing games',
+        existing: 'Existing games for',
         invitation: {
           label: 'Opponents Email',
           description: 'Your opponent needs to have an account on this platform!',

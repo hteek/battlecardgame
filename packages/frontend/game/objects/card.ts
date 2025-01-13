@@ -1,7 +1,7 @@
 import type * as phaser from 'phaser';
 import type { Scene } from 'phaser';
 
-import { cardScale, cardSize } from '~/game/constants';
+import { cardScale, cardSize, cardSlotFadeInDuration } from '~/game/constants';
 import type { CardProps, CardPropsType } from '~/game/cards';
 import type { CardSlot } from '~/game/objects/cardSlot';
 import Container = Phaser.GameObjects.Container;
@@ -114,6 +114,7 @@ export class Card extends Container {
             scale: 1.1, // Scale up by 10%
             duration: 250,
             ease: 'Back.easeOut',
+            onComplete: () => this.setDepth(125),
           });
         }
       });
@@ -137,6 +138,7 @@ export class Card extends Container {
             y: this._cardSlot.y,
             duration: 250,
             ease: 'Power2',
+            onComplete: () => this.setDepth(100),
           });
         }
       });
@@ -175,6 +177,12 @@ export class Card extends Container {
 
   override destroy() {
     this.cardSlot.card = undefined;
-    super.destroy();
+    this.scene.tweens.add({
+      targets: this,
+      alpha: 0,
+      duration: cardSlotFadeInDuration, // Duration of fade in milliseconds
+      ease: 'Linear', // Linear easing for smooth fade
+      onComplete: () => super.destroy(),
+    });
   }
 }

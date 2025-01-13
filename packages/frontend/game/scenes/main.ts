@@ -176,8 +176,41 @@ export class Main extends phaser.Scene {
     console.log('evaluate from', card.cardName, card.cardSlot.slotType, card.position);
     console.log('evaluate to', cardSlot.card?.cardName, cardSlot.slotType, cardSlot.position);
     if (cardSlot.hasCard) {
+      if (simulate) {
+        const xOffset = cardSlot.x - card.x;
+        const yOffset = cardSlot.y - card.y;
+        const xAdjustment = xOffset < 0 ? cardSize / 2 : -(cardSize / 2);
+        const yAdjustment = yOffset < 0 ? cardSize / 2 : -(cardSize / 2);
+
+        console.log('move to attack', xOffset, yOffset, xAdjustment, yAdjustment);
+
+        card.setDepth(125);
+        await new Promise((resolve) =>
+          this.tweens.add({
+            targets: card,
+            x: card.x + xOffset + xAdjustment,
+            y: card.y + yOffset + yAdjustment,
+            duration: 300, // milliseconds
+            ease: 'Power2',
+            onComplete: resolve,
+          }),
+        );
+      }
       card.attack(cardSlot);
       cardSlot.card!.attack(card.cardSlot);
+      if (simulate) {
+        console.log('move back', card.cardName, cardSlot.card?.cardName);
+        this.time.delayedCall(250, () => {
+          this.tweens.add({
+            targets: card,
+            x: card.cardSlot.x,
+            y: card.cardSlot.y,
+            duration: 300, // milliseconds
+            ease: 'Power2',
+          });
+        });
+        card.setDepth(100);
+      }
       if (card.isDead) {
         card.destroy();
       }

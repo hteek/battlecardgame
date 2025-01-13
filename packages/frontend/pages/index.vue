@@ -28,19 +28,27 @@
           <UButton v-else @click="signInWithRedirect()">{{ $t('game.login') }}</UButton>
         </template>
         <div class="flex flex-col items-center justify-center">
-          <img src="/assets/cards/back.png" class="rounded-md" >
+          <img src="/assets/cards/back.png" class="rounded-md" />
         </div>
       </UPageHero>
     </section>
     <section v-if="gameStore.games.length > 0" id="games">
       <UDivider>
-        <span class="text-lg text-gray-500 dark:text-gray-400">{{ $t('game.existing') }}</span>
+        <span class="text-md text-gray-500 dark:text-gray-400"
+          >{{ $t('game.existing') }}<br />{{ authStore.currentUserNameOrEmail }}</span
+        >
       </UDivider>
       <UPageGrid v-if="gameStore.games.length > 0" class="mt-10">
         <UPageCard v-for="(game, index) in gameStore.games as Game[]" :key="index" :to="`/game/${game.id}`">
           <template #title>
-            <p class="text-gray-900 dark:text-white text-base font-semibold truncate flex items-center gap-1.5">
-              {{ game.userEmail }} <span class="text-primary">vs.</span> {{ game.opponentEmail }}
+            <p class="text-base font-semibold truncate flex items-center gap-1.5">
+              <span :class="isYou(game.userEmail) ? 'text-primary' : 'text-gray-900 dark:text-white'">{{
+                getPlayerName(game.userEmail)
+              }}</span>
+              <span class="text-gray-500 dark:text-gray-400">vs.</span>
+              <span :class="isYou(game.opponentEmail) ? 'text-primary' : 'text-gray-900 dark:text-white'">{{
+                getPlayerName(game.opponentEmail)
+              }}</span>
             </p>
           </template>
           <template #description>
@@ -76,6 +84,8 @@ import { useGameStore } from '~/store/game';
 const authStore = useAuthStore();
 const gameStore = useGameStore();
 
+const { t } = useI18n();
+
 const schema = z.object({
   email: z.string().email('Invalid email'),
 });
@@ -85,6 +95,9 @@ type Schema = z.output<typeof schema>;
 const state = reactive({
   email: undefined,
 });
+
+const getPlayerName = (email: string) => (authStore.currentUser?.email === email ? t('game.you') : email);
+const isYou = (email: string) => authStore.currentUser?.email === email;
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
   const { id } = await gameStore.create(event.data.email);
