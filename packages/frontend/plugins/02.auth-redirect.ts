@@ -22,7 +22,7 @@ export default defineNuxtPlugin({
           if (!tokens && to.path !== '/') {
             // If the request is not associated with a valid user session and
             // the route is not `/` redirect to the federated login.
-            await signInWithRedirect();
+            nuxtApp.runWithContext(async () => await signInWithRedirect());
             return abortNavigation();
           }
         } catch (e) {
