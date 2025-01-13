@@ -28,14 +28,14 @@
           <UButton v-else @click="signInWithRedirect()">{{ $t('game.login') }}</UButton>
         </template>
         <div class="flex flex-col items-center justify-center">
-          <img src="/assets/cards/back.png" class="rounded-md" />
+          <img src="/assets/cards/back.png" class="rounded-md" >
         </div>
       </UPageHero>
     </section>
     <section v-if="gameStore.games.length > 0" id="games">
       <UDivider>
         <span class="text-md text-gray-500 dark:text-gray-400"
-          >{{ $t('game.existing') }}<br />{{ authStore.currentUserNameOrEmail }}</span
+          >{{ $t('game.existing') }}<br >{{ authStore.currentUserNameOrEmail }}</span
         >
       </UDivider>
       <UPageGrid v-if="gameStore.games.length > 0" class="mt-10">

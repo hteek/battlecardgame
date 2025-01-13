@@ -49,7 +49,7 @@
         </NuxtLink>
       </template>
       <template #center>
-        <span class="text-xs text-gray-400 dark:text-gray-600">v{{ $version }} </span>
+        <span class="text-xs text-gray-400 dark:text-gray-600">{{ $gitVersion ? $gitVersion : 'v' + $version }} </span>
       </template>
       <template #right>
         <UButton

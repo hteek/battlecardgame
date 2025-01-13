@@ -58,7 +58,7 @@ export default defineNuxtPlugin({
     // app from a different domain. You should choose an appropriate value for
     // your own use cases.
     const lastAuthUserCookie = useCookie(lastAuthUserCookieName, {
-      sameSite: 'none',
+      sameSite: process.env.NODE_ENV !== 'development' ? 'lax' : 'none',
       expires,
       secure: true,
     });
@@ -73,7 +73,11 @@ export default defineNuxtPlugin({
     const amplifyCookies = authKeys
       .map((name) => ({
         name,
-        cookieRef: useCookie(name, { sameSite: 'none', expires, secure: process.env.NODE_ENV !== 'development' }),
+        cookieRef: useCookie(name, {
+          sameSite: process.env.NODE_ENV !== 'development' ? 'lax' : 'none',
+          expires,
+          secure: process.env.NODE_ENV !== 'development',
+        }),
       }))
       .reduce<Record<string, CookieRef<string | null | undefined>>>(
         (result, current) => ({
