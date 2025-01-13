@@ -1,6 +1,6 @@
 {
   "name": "@hteek/battlecardgame",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "engines": {
     "node": "22",

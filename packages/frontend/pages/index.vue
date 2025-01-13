@@ -28,7 +28,7 @@
           <UButton v-else @click="signInWithRedirect()">{{ $t('game.login') }}</UButton>
         </template>
         <div class="flex flex-col items-center justify-center">
-          <img src="/assets/cards/back.png" class="rounded-md" />
+          <img src="/assets/cards/back.png" class="rounded-md" >
         </div>
       </UPageHero>
     </section>

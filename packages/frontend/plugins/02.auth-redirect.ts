@@ -27,7 +27,7 @@ export default defineNuxtPlugin({
           }
         } catch (e) {
           console.error(e);
-          return navigateTo('/');
+          return nuxtApp.runWithContext(() => navigateTo('/'));
         }
       }),
       { global: true },
