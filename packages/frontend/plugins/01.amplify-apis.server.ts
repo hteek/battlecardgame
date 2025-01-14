@@ -10,36 +10,35 @@ import { generateClient } from 'aws-amplify/api/server';
 import type { FetchAuthSessionOptions, LibraryOptions } from '@aws-amplify/core';
 import type { GraphQLOptionsV6, GraphQLResponseV6 } from '@aws-amplify/api-graphql';
 
-import type { NuxtApp } from '#app';
-
 import { fetchConfig } from '~/plugins/util/config';
+
+const {
+  config: amplifyConfig,
+  environment,
+  identityProviders,
+  gitVersion,
+  project,
+  version,
+} = fetchConfig('battlecardgame.net');
+console.log('amplify config server side loaded', amplifyConfig);
+
+// create the Amplify used token cookies names array
+const userPoolClientId = amplifyConfig.Auth!.Cognito.userPoolClientId;
+const lastAuthUserCookieName = `CognitoIdentityServiceProvider.${userPoolClientId}.LastAuthUser`;
+
+// create a GraphQL client that can be used in a server context
+const gqlServerClient = generateClient({ config: amplifyConfig });
+
+const getAmplifyAuthKeys = (lastAuthUser: string) =>
+  ['idToken', 'accessToken', 'refreshToken', 'clockDrift']
+    .map((key) => `CognitoIdentityServiceProvider.${userPoolClientId}.${lastAuthUser}.${key}`)
+    .concat(lastAuthUserCookieName);
 
 // define the plugin
 export default defineNuxtPlugin({
   name: 'AmplifyAPIs',
   enforce: 'pre',
-  async setup(nuxtApp) {
-    const {
-      config: amplifyConfig,
-      environment,
-      identityProviders,
-      gitVersion,
-      project,
-      version,
-    } = await fetchConfig(nuxtApp as NuxtApp);
-
-    // create the Amplify used token cookies names array
-    const userPoolClientId = amplifyConfig.Auth!.Cognito.userPoolClientId;
-    const lastAuthUserCookieName = `CognitoIdentityServiceProvider.${userPoolClientId}.LastAuthUser`;
-
-    // create a GraphQL client that can be used in a server context
-    const gqlServerClient = generateClient({ config: amplifyConfig });
-
-    const getAmplifyAuthKeys = (lastAuthUser: string) =>
-      ['idToken', 'accessToken', 'refreshToken', 'clockDrift']
-        .map((key) => `CognitoIdentityServiceProvider.${userPoolClientId}.${lastAuthUser}.${key}`)
-        .concat(lastAuthUserCookieName);
-
+  setup() {
     // The Nuxt composable `useCookie` is capable of sending cookies to the
     // client via the `SetCookie` header. If the `expires` option is left empty,
     // it sets a cookie as a session cookie. If you need to persist the cookie

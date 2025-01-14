@@ -100,7 +100,7 @@ export const useAuthStore = defineStore('auth', () => {
     loading.value = false;
   }
 
-  async function logout() {
+  function logout() {
     if (currentUserListener) {
       currentUserListener();
     }

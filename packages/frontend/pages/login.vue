@@ -1,27 +1,32 @@
 <template>
-  <CardsLogo class="motion-safe:animate-ping w-auto h-28 fill-primary" />
+  <div>
+    <CardsLogo class="motion-safe:animate-ping w-auto h-28 fill-primary" />
+  </div>
 </template>
 
 <script setup lang="ts">
-import { signInWithRedirect } from 'aws-amplify/auth';
 import { useAuthStore } from '~/store/auth';
+import { signInWithRedirect } from 'aws-amplify/auth';
 
 definePageMeta({
   layout: 'splash',
 });
-const authStore = useAuthStore();
-const route = useRoute();
 
-const { tokens } = await useNuxtApp().$Amplify.Auth.fetchAuthSession();
-if (!tokens) {
-  signInWithRedirect();
-} else if (authStore.hasCurrentUser) {
-  await authStore.login();
-}
+onMounted(async () => {
+  const authStore = useAuthStore();
+  const route = useRoute();
 
-const { redirect } = route.query;
-if (redirect) {
-  console.log('store redirect', redirect);
-}
-navigateTo('/');
+  const { tokens } = await useNuxtApp().$Amplify.Auth.fetchAuthSession();
+  if (!tokens) {
+    await signInWithRedirect();
+  } else if (!authStore.hasCurrentUser) {
+    await authStore.login();
+
+    const { redirect } = route.query;
+    if (redirect) {
+      console.log('store redirect', redirect);
+    }
+    navigateTo('/');
+  }
+});
 </script>

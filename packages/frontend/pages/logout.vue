@@ -13,8 +13,11 @@ const authStore = useAuthStore();
 
 const { tokens } = await useNuxtApp().$Amplify.Auth.fetchAuthSession();
 if (tokens) {
-  signOut();
+  console.log('logout...');
+  await signOut();
   authStore.logout();
+  console.log('...done');
 }
+console.log('now navigate');
 navigateTo('/');
 </script>

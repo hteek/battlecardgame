@@ -1,5 +1,3 @@
-import { env } from 'process';
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -89,13 +87,6 @@ export default defineNuxtConfig({
       suppressWarnings: true,
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
-    },
-  },
-  runtimeConfig: {
-    public: {
-      callbackUrls: env.NODE_ENV === 'development' ? ['http://localhost:3000/login'] : undefined,
-      logoutUrls: env.NODE_ENV === 'development' ? ['http://localhost:3000/logout'] : undefined,
-      outputsUrl: env.NODE_ENV === 'development' ? 'https://config.battlecardgame.net/outputs.json' : 'outputs.json',
     },
   },
   spaLoadingTemplate: 'app/spa-loading-template.html',

@@ -1,17 +1,13 @@
 import type { ResourcesConfig } from 'aws-amplify';
 
-import type { NuxtApp } from '#app';
-import { useRequestURL } from '#app';
+import fetch from 'sync-fetch';
 
-type BattleCardGameConfig = {
-  callbackUrls?: string[];
-  logoutUrls?: string[];
-  outputsUrl?: string;
-};
+export const fetchConfig = (url: string) => {
+  const config = fetch(
+    // eslint-disable-line @typescript-eslint/no-explicit-any
+    `https://config.${url}/outputs.json`,
+  ).json();
 
-export const fetchConfig = async (nuxtApp: NuxtApp) => {
-  const { callbackUrls, logoutUrls, outputsUrl } = (nuxtApp.$config.public ?? {}) as unknown as BattleCardGameConfig;
-  const { hostname, port, protocol } = useRequestURL();
   const {
     environment,
     gitVersion,
@@ -25,11 +21,7 @@ export const fetchConfig = async (nuxtApp: NuxtApp) => {
     userPoolId,
     userPoolWebClientId,
     version,
-  } = await useFetch<any>( // eslint-disable-line @typescript-eslint/no-explicit-any
-    ((outputsUrl as string).startsWith('http')
-      ? outputsUrl
-      : `${protocol}//config.${hostname}${port ? ':' + port : ''}/${outputsUrl}`) as string,
-  ).then((response) => response.data.value[Object.keys(response.data.value)[0]]);
+  } = config[Object.keys(config)[0]];
 
   return {
     config: {
@@ -50,8 +42,8 @@ export const fetchConfig = async (nuxtApp: NuxtApp) => {
             oauth: {
               domain: userPoolDomainName,
               scopes: ['email', 'profile', 'openid'],
-              redirectSignIn: callbackUrls ? callbackUrls : [`https://${frontendDomainName}/login`],
-              redirectSignOut: logoutUrls ? logoutUrls : [`https://${frontendDomainName}/logout`],
+              redirectSignIn: ['http://localhost:3000/login', `https://${frontendDomainName}/login`],
+              redirectSignOut: ['http://localhost:3000/logout', `https://${frontendDomainName}/logout`],
               responseType: 'code', // or 'token', note that REFRESH token will only be generated when the responseType is code
             },
           },
