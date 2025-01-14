@@ -79,6 +79,8 @@ import type { Game } from '~/gql/graphql';
 import { useAuthStore } from '~/store/auth';
 import { useGameStore } from '~/store/game';
 
+definePageMeta({ middleware: ['auth'] });
+
 const authStore = useAuthStore();
 const gameStore = useGameStore();
 

@@ -50,8 +50,8 @@ export const fetchConfig = async (nuxtApp: NuxtApp) => {
             oauth: {
               domain: userPoolDomainName,
               scopes: ['email', 'profile', 'openid'],
-              redirectSignIn: callbackUrls ? callbackUrls : [`https://${frontendDomainName}`],
-              redirectSignOut: logoutUrls ? logoutUrls : [`https://${frontendDomainName}`],
+              redirectSignIn: callbackUrls ? callbackUrls : [`https://${frontendDomainName}/login`],
+              redirectSignOut: logoutUrls ? logoutUrls : [`https://${frontendDomainName}/logout`],
               responseType: 'code', // or 'token', note that REFRESH token will only be generated when the responseType is code
             },
           },

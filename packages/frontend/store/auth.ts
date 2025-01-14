@@ -38,8 +38,6 @@ export const useAuthStore = defineStore('auth', () => {
   const currentUser = ref<User>();
   const loading = ref(false);
 
-  const initialized = ref(false);
-
   let currentUserListener: () => void;
 
   const currentUserNameOrEmail = computed(() =>
@@ -67,27 +65,6 @@ export const useAuthStore = defineStore('auth', () => {
       ? `https://www.gravatar.com/avatar/${Md5.hashStr(currentUser.value?.email)}?d=404`
       : undefined,
   );
-
-  const init = async () => {
-    if (!initialized.value) {
-      initialized.value = true;
-
-      Hub.listen('auth', (data) => {
-        const {
-          payload: { event },
-        } = data;
-        switch (event) {
-          case 'signedIn':
-            login();
-            navigateTo('/');
-            break;
-          case 'signedOut':
-            logout();
-            break;
-        }
-      });
-    }
-  };
 
   async function login() {
     loading.value = true;
@@ -143,7 +120,6 @@ export const useAuthStore = defineStore('auth', () => {
     get,
     gravatarUrl,
     hasCurrentUser,
-    init,
     loading,
     login,
     logout,

@@ -10,6 +10,8 @@
 import { ref } from 'vue';
 import { useGameStore } from '~/store/game';
 
+definePageMeta({ middleware: ['login'] });
+
 const route = useRoute();
 const gameStore = useGameStore();
 
