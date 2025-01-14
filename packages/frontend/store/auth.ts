@@ -71,12 +71,6 @@ export const useAuthStore = defineStore('auth', () => {
   const init = async () => {
     if (!initialized.value) {
       initialized.value = true;
-      const { tokens } = await useNuxtApp().$Amplify.Auth.fetchAuthSession();
-
-      if (tokens) {
-        await login();
-        navigateTo('/');
-      }
 
       Hub.listen('auth', (data) => {
         const {
@@ -151,5 +145,7 @@ export const useAuthStore = defineStore('auth', () => {
     hasCurrentUser,
     init,
     loading,
+    login,
+    logout,
   };
 });
