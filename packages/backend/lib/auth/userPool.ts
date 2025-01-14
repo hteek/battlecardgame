@@ -136,20 +136,18 @@ export class AuthUserPool extends UserPool {
       ? this.addIdentityProviders(identityProviders)
       : [UserPoolClientIdentityProvider.COGNITO];
 
-    const domainUrls = [`https://${domainName}`];
-
     this.userPoolClient = this.addClient('AuthUserPoolClient', {
       authFlows: {
         userSrp: true,
       },
       supportedIdentityProviders,
       oAuth: {
-        callbackUrls: [...domainUrls, ...callbackUrls],
+        callbackUrls: [`https://${domainName}/login`, ...callbackUrls],
         flows: {
           authorizationCodeGrant: true,
           implicitCodeGrant: false,
         },
-        logoutUrls: [...domainUrls, ...logoutUrls],
+        logoutUrls: [`https://${domainName}/logout`, ...logoutUrls],
         scopes: [OAuthScope.EMAIL, OAuthScope.PROFILE],
       },
       preventUserExistenceErrors: true,

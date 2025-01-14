@@ -4,7 +4,7 @@ export default {
     monorepoAppRoot: 'packages/frontend',
   },
   auth: {
-    callbackUrls: ['http://localhost:3000'],
+    callbackUrls: ['http://localhost:3000/login'],
     identityProviders: {
       amazon: {
         clientId: 'amzn1.application-oa2-client.52287ca2998d4c0ba1a6e3d6478d37ad',
@@ -13,7 +13,7 @@ export default {
         clientId: '211145703742-r1kt05na6f6t1hqf9g3una5daflue3e6.apps.googleusercontent.com',
       },
     },
-    logoutUrls: ['http://localhost:3000'],
+    logoutUrls: ['http://localhost:3000/logout'],
     selfSignUpEnabled: true,
   },
   domainName: 'battlecardgame.net',

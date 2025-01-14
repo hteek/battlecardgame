@@ -709,7 +709,7 @@ type User {
           "openid",
         ],
         "CallbackURLs": [
-          "https://my.custom.domain",
+          "https://my.custom.domain/login",
         ],
         "ClientName": "test-project-client",
         "ExplicitAuthFlows": [
@@ -717,7 +717,7 @@ type User {
           "ALLOW_REFRESH_TOKEN_AUTH",
         ],
         "LogoutURLs": [
-          "https://my.custom.domain",
+          "https://my.custom.domain/logout",
         ],
         "PreventUserExistenceErrors": "ENABLED",
         "SupportedIdentityProviders": [
